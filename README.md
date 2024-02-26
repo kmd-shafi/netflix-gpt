@@ -13,6 +13,23 @@
   -Create SighUp User Account
   -Implement Sigh In User Api
   Created Redux stote with user slice
+  -implemented sign out
+  -update profile
+  -feach from TMDB movies
+  -BugFix: sigh Up user displayName and profile picture update
+  -BugFix: if the user is not logged in Redirect /browse to login page and vice versa
+  -unsubscibed tothe onAuthstatechaged callback
+  -Add hardcaded values to the constants fils
+  -register TMDB API & create an app and get access token
+  -get data from TMDB now playing movies list API
+  -custom Hook for nowplaying movies
+  -create movie data
+  -update store with movies data
+  -planning for main container and secondary container
+  -fech data for trailer video
+  -update store withy trailer video data
+  -embedded the youtube video and make it run auto play and mute
+  -tailwind classes to make main container look awesom
 
 # Features
 
