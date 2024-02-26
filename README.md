@@ -8,6 +8,11 @@
   -sigh up form
   -form validation
   -useRef Hook
+  -Firebase SetUp
+  -Deploying our app to prodution
+  -Create SighUp User Account
+  -Implement Sigh In User Api
+  Created Redux stote with user slice
 
 # Features
 
