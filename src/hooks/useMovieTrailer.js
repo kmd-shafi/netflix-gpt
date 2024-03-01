@@ -6,7 +6,7 @@ import { addTrailerVideo } from "../utils/movieslice";
 const useMovieTrailer = (movieId) => {
   const dispatch = useDispatch();
 
-  const TrailerVideo = useSelector((store) => store.movies.TrailerVideo);
+  const TrailerVideo = useSelector((store) => store.movies.trailerVideo);
 
   const getMovieVideos = async () => {
     const data = await fetch(
@@ -16,10 +16,8 @@ const useMovieTrailer = (movieId) => {
       API_OPTIONS
     );
     const json = await data.json();
-
     const filterData = json.results.filter((video) => video.type === "Trailer");
     const trailer = filterData.length ? filterData[0] : json.results[0];
-
     dispatch(addTrailerVideo(trailer));
   };
   useEffect(() => {
